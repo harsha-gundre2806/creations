@@ -3,7 +3,7 @@ import { FaYoutube, FaInstagram, FaPhone, FaEnvelope, FaWhatsapp } from "react-i
 
 function Footer() {
   return (
-    <footer className="bg-gray-700 text-gray-200">
+    <footer className="bg-gray-800 text-gray-200">
       <div className="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
 
         {/* Links Section */}
@@ -28,28 +28,28 @@ function Footer() {
 
           {/* Phone */}
           <p className="flex items-center gap-2 mb-2">
-            <FaPhone className="text-black" />
-            <a href="tel:+917893475910" className="text-indigo-600 hover:text-indigo-800 transition">
+            <FaPhone className="text-white" />
+            <a href="tel:+917893475910" className="text-white hover:underline hover:text-blue-300  transition">
               7893475910
             </a>
           </p>
 
           {/* Email */}
           <p className="flex items-center gap-2 mb-2">
-            <FaEnvelope className="text-black" />
-            <a href="mailto:thanushch06@gmail.com" className="text-indigo-600 hover:text-indigo-800 transition">
+            <FaEnvelope className="text-white" />
+            <a href="mailto:thanushch06@gmail.com" className="text-white hover:underline hover:text-blue-300 transition">
               Mail Us
             </a>
           </p>
 
           {/* WhatsApp */}
           <p className="flex items-center gap-2">
-            <FaWhatsapp className="text-black" />
+            <FaWhatsapp className="text-white" />
             <a
               href="https://wa.me/917893475910?text=Hello%20HandArt%20Gallery!%20I%20would%20like%20to%20inquire%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-600 hover:text-green-800 transition"
+              className="text-white hover:underline hover:text-green-600 transition"
             >
               Message us on WhatsApp
             </a>
@@ -82,7 +82,7 @@ function Footer() {
       </div>
 
       {/* Copyright Section */}
-      <div className="bg-gray-800">
+      <div className="bg-gray-900">
         <div className="text-center py-5 text-gray-500 text-sm">
           © {new Date().getFullYear()} Gomukhi Creations. All rights reserved.
         </div>
@@ -93,10 +93,3 @@ function Footer() {
 
 export default Footer;
 
-
-// https://www.youtube.com/@neeru83
-
-// https://www.instagram.com/gomukhi_creations?igsh=dXNjMHF1dzNjZHdk
-
-// 7013458008
-// thanush2006@gmail.com 
