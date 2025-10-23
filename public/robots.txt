@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://svu-page-02.netlify.app/sitemap.xml
+Sitemap: https://gomukhi-creations/sitemap.xml
